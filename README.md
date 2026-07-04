@@ -4,10 +4,10 @@ A program that sorts a stack of integers using only a small, fixed set of stack
 operations, while trying to use as few operations as possible. Built as the 42
 "push_swap" project.
 
-You start with all the numbers on stack `a` and an empty stack `b`, and the goal
-is to end with `a` sorted in ascending order. The only things you are allowed to
-do are swap, push between stacks, and rotate, so the challenge is not *whether*
-you can sort it but *how cheaply*.
+The numbers start on stack `a` with an empty stack `b`, and the goal is to end
+with `a` sorted in ascending order. The only permitted moves are swap, push
+between stacks, and rotate, so the challenge is not *whether* the stack can be
+sorted but *how cheaply*.
 
 ## The operations
 
