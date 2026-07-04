@@ -1,0 +1,8 @@
+# Build artifacts
+push_swap
+*.o
+*.a
+
+# Editor and OS
+.vscode/
+.DS_Store
