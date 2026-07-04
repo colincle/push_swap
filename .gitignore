@@ -6,3 +6,8 @@ push_swap
 # Editor and OS
 .vscode/
 .DS_Store
+obj/
+
+# Local test output
+numbers.txt
+steps.txt
