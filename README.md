@@ -4,6 +4,14 @@ A program that sorts a stack of integers using only a small, fixed set of stack
 operations, while trying to use as few operations as possible. Built as the 42
 "push_swap" project.
 
+![push_swap visualized](gif/gif.gif)
+
+The animation above was produced with
+[o-reo/push_swap_visualizer](https://github.com/o-reo/push_swap_visualizer), a
+third-party GPL-3.0 tool, not part of this repository. It is used here only to
+display the output of this push_swap. All credit for the visualizer goes to its
+author.
+
 The numbers start on stack `a` with an empty stack `b`, and the goal is to end
 with `a` sorted in ascending order. The only permitted moves are swap, push
 between stacks, and rotate, so the challenge is not *whether* the stack can be
